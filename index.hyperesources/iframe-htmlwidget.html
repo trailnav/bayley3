@@ -1,0 +1,98 @@
+<form id="contact-form" action="http://formspree.io/danjamesdeveloper@gmail.com" method="POST">
+
+    <div class="form-title"></div>
+    <input type="text" name="name" placeholder="Enter your name" class="form-field">
+
+    <div class="form-title"></div>
+    <input type="email" name="_replyto" placeholder="Enter your email" class="form-field">
+
+   
+    <div class="form-title"></div>
+    <textarea name="message" rows="3" placeholder="Message/Quotation request" class="form-field form-message"></textarea>
+
+    <input type="hidden" name="_subject" value="Website contact" />
+  
+
+    <div class="buttons-container">
+       <input type="submit" value="Send" class="buttons">
+    </div>
+
+</form>
+<style>
+#contact-form {
+   font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+   font-size: 18px;
+}
+
+.form-title {
+   margin-bottom:1px;
+   color: #6B6B6B;
+   text-shadow: #fdf2e4 0 1px 0;
+}
+
+.form-field {
+   border: 0px solid #a39584;
+   background: #f3f3f3;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   color: white;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(000,000,000,0.7) 0 0px 0px;
+   padding: 8px;
+   margin-bottom: 5px;
+   width: 250px;
+}
+.form-field:focus {
+   background: #ffffff;
+   color: #836b4e;
+}
+
+
+.buttons-container {
+   margin:0px 0;
+   text-align:left;
+}
+
+.buttons {
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F55A14), color-stop(1, #e9e9e9));
+    background:-moz-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+    background:-webkit-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+    background:-o-linear-gradient(top, #F55A14 5%, #e9e9e9 100%);
+    background:-ms-linear-gradient(top, #f9f9f9 5%, #e9e9e9 100%);
+    background:linear-gradient(to bottom, #F59A20 4%, #F55A14 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F55A14', endColorstr='#F55A14',GradientType=0);
+    background-color:#a9b9b6;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:0px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:white;
+    font-family:Arial;
+    font-size:21px;
+    font-weight:thin;
+    padding:8px 100px;
+    text-decoration:none;
+    text-shadow:0px 0px 0px;
+}
+.buttons:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #F55A14), color-stop(1, #F55A14));
+    background:-moz-linear-gradient(top, #F55A14 5%, #F55A14 100%);
+    background:-webkit-linear-gradient(top, #F55A14 5%, #F55A14 100%);
+    background:-o-linear-gradient(top, #F55A14 5%,#F55A14 100%);
+    background:-ms-linear-gradient(top,#F55A14 5%, #F55A14 100%);
+    background:linear-gradient(to bottom,#F55A14 5%, #F55A14 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F55A14', endColorstr='#F55A14',GradientType=0);
+    background-color:#dddddd;
+}
+.buttons:active {
+    position:relative;
+    top:1px;
+}
+</style>
